@@ -37,7 +37,7 @@ const App = () => {
       <input
         type="text"
         placeholder="Search for a beer..."
-        className="w-full p-2 border rounded mb-4"
+        className="w-full p-2 border rounded mb-4 text-blue-700"
         onChange={(e) => setSearchQuery(e.target.value)}
       />
 
